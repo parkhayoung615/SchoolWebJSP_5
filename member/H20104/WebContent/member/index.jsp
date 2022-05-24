@@ -10,7 +10,7 @@
 	<h1>MEMBER 테이블 DB CURD 실습</h1>
 	
 	<ul>
-		<li><a href="<%= request.getContextPath() %>/member/memberlist.jsp">회원목록 조회</a></li>
+		<li><a href="<%= request.getContextPath() %>/member/memberList.jsp">회원목록 조회</a></li>
 		<li><a href="<%= request.getContextPath() %>/member/memberInsert.jsp">회원 추가</a></li>
 	</ul>
 </body>
