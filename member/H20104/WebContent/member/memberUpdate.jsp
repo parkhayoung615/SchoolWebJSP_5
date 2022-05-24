@@ -11,6 +11,7 @@
 	
 	<% String id = request.getParameter("id"); %>
 	
+	<!-- UpdateServlet에서 받을 때 값이 update임 (@WebServlet("/update")) -->
 	<form action="/update" method="post">
 		사용자 ID : <input type="text" name="id" value="<%= id %>" readonly> <br>
 		사용자 PWD : <input type="password" name="pwd"> <br> <br> 

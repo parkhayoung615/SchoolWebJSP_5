@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.MemberDAO;
 
+// memberUpdate에서 form이 update로 줌
 @WebServlet("/update")
 public class UpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -38,6 +39,7 @@ public class UpdateServlet extends HttpServlet {
 		if(n>0)
 			response.sendRedirect("/member/memberList.jsp");
 		else
+			// 뒤로 감
 			out.print("<script> history.back() </script>");
 	}
 	

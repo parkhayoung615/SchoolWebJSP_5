@@ -30,7 +30,9 @@ public class DeleteServlet extends HttpServlet {
 		
 		n = dao.deleteMember(id);
 		
+		// 쿼리가 간다면 (n의 숫자가 쿼리가 간 숫자)
 		if(n>0)
+			// memberList로 이동
 			response.sendRedirect("/member/memberList.jsp");
 		else
 			out.print("<script> alert('회원 정보 삭제를 실패했습니다.'); </script>");
