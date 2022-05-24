@@ -18,7 +18,7 @@ public class DeleteServlet extends HttpServlet {
     public DeleteServlet() {
         super();
     }
-
+    // delete는 페이지를 거쳐서 회원 정보가 삭제되는 것이 아니기 때문에 따로 form으로 지정하지 않았다 그래서 doGet으로 설정됨(get이 기본값)
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");

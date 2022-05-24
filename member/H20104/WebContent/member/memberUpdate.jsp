@@ -14,7 +14,7 @@
 	<form action="/update" method="post">
 		사용자 ID : <input type="text" name="id" value="<%= id %>" readonly> <br>
 		사용자 PWD : <input type="password" name="pwd"> <br> <br> 
-		<input type="submit" value="추가"> &nbsp; &nbsp;
+		<input type="submit" value="수정"> &nbsp; &nbsp;
 		<input type="reset" value="초기화"> 
 	</form>
 	

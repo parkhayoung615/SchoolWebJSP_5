@@ -19,7 +19,8 @@ public class UpdateServlet extends HttpServlet {
         super();
     }
     
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    // memberUpdate.jsp를 살펴본다면 form에서 post 방식으로 줬기 때문에 doPost로 받는다
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 		
