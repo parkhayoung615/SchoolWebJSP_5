@@ -9,7 +9,7 @@
 <body>
 	<h1> 회원 정보 등록 (member 테이블)</h1>
 	
-	<form action="insertProc.jsp" method="post">
+	<form action="insertProc.jsp" accept-charset="UTF-8"  method="post">
 		사용자 ID : <input type="text" name="id"> <br>
 		사용자 PWD : <input type="password" name="pwd"> <br> <br> 
 		<input type="submit" value="추가"> &nbsp; &nbsp;
