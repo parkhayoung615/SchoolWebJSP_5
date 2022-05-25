@@ -7,5 +7,3 @@ alter table member default character set = utf8;
 
 select * from member;
 delete from member;
- member;
- 
